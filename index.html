@@ -5,19 +5,46 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rastreamento</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+
 </head>
 <body>
-    <h1>Rastreamento</h1>
 
-    <p>Pesquise aqui seu pacote usando o id de rastreamento.</p>
-    <div>
-        <label for="id">ID:</label>
-        <input type="id" length=32></input>
-        <button>Pesquisar</button>
+    <h1>Rastreamento de pacotes</h1>
+
+
+    <div class="rastreamento">
+
+        <div class="pesquisa">
+            <h3>Pesquisa</h3>
+            <form>
+                <p>
+                    <label>Id:</label>
+                    <input type="text">
+                </p>
+                <p>
+                    <div id="botao_alinhar">
+                        <button class="botao">Pesquisar</button>
+                    </div>
+                </p>
+            </form>
+        </div>
+
+
+        <div class="resultado">
+            <h3>Resultados</h3>
+            <!--<table id="tabela"></table>-->
+        </div>
 
     </div>
 
-    <table id="tabela"></table>
 
     <script src="main.js"></script>
 </body>
