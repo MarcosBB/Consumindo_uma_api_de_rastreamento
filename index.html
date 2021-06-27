@@ -24,23 +24,31 @@
 
         <div class="pesquisa">
             <h3>Pesquisa</h3>
-            <form>
-                <p>
-                    <label>Id:</label>
-                    <input type="text">
-                </p>
-                <p>
-                    <div id="botao_alinhar">
-                        <button class="botao">Pesquisar</button>
-                    </div>
-                </p>
-            </form>
+            
+            <p>
+                <label>Id:</label>
+                <input id="id" type="text">
+            </p>
+            <p>
+                <div id="botao_alinhar">
+                    <button class="botao" id="botao">Pesquisar</button>
+                </div>
+            </p>
+            
         </div>
 
 
         <div class="resultado">
             <h3>Resultados</h3>
-            <!--<table id="tabela"></table>-->
+            <table id="resultados">
+                <tr>
+                    <th>Status</th>
+                    <th>Rota</th>
+                    <th>Data</th>
+                </tr>
+            </table>
+
+
         </div>
 
     </div>
