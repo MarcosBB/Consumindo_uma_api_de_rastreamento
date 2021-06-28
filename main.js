@@ -5,7 +5,7 @@ function adicionaColuna(tabela, line, content){
     var item
     item = line.insertCell()
     item.innerText = content
-    tabela.appendChild(item)
+    //tabela.appendChild(item)
 }
 
 function adicionaLinhas(tabela){
@@ -66,6 +66,7 @@ function pesquisar(id){
 }
 
 function clickDoBotao(){
+    
     var input = document.getElementById("id")
     var id = input.value
 
